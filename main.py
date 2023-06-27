@@ -19,4 +19,9 @@ for i in range(ticket_count):
         total_cost += 990
     else:
         total_cost += 1390
+if ticket_count > 3:
+    total_cost = ((total_cost * 90)/100)
+
 print(f'Итоговая стоистость за билеты:{total_cost}')
+
+
